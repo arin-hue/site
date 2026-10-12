@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hafız-a · Elifba ve Kuran öğrenme uygulaması</title>
-<meta name="description" content="Hafız-a — elifbayı adım adım öğreten, sesli ve alıştırmalı iOS uygulaması.">
+<meta name="description" content="Hafız-a: elifbadan Kuran'a adım adım. Harfleri öğren, namaz sûrelerini ve 30 cüzü dinle, oku, ezberle. iPhone ve Android için ücretsiz.">
 
 <style>
   :root { color-scheme: light dark; --bg:#f8f9ff; --fg:#16181d; --dim:#5b6070;
@@ -26,11 +26,13 @@
        text-transform: uppercase; letter-spacing: .06em; font-weight: 600; }
   ul { padding-left: 1.1rem; margin: .5rem 0; }
   li { margin: .35rem 0; }
+  .stores { display: flex; flex-wrap: wrap; gap: .75rem; margin: .5rem 0 1rem; }
   .cta {
     display: inline-block; background: var(--brand); color: var(--brandInk);
     text-decoration: none; font-weight: 600; padding: .8rem 1.4rem;
-    border-radius: 12px; margin: .5rem 0 1rem;
+    border-radius: 12px;
   }
+  .note { color: var(--dim); font-size: .93rem; margin: .2rem 0 .5rem; }
   .links { border-top: 1px solid var(--line); margin-top: 3rem; padding-top: 1.5rem;
            font-size: .93rem; }
   .links a { color: var(--fg); }
@@ -44,16 +46,35 @@
 <img class="logo" src="logo.png" alt="Hafız-a">
 
 <h1>Hafız-a</h1>
-<p class="sub">Elifbayı sıfırdan, adım adım öğreten sesli alıştırma uygulaması.</p>
+<p class="sub">Elifbadan Kuran'a adım adım: harfleri öğren, ayetleri dinle, oku ve ezberle.</p>
 
-<a class="cta" href="https://apps.apple.com/tr/app/id6800773533">App Store'dan indir</a>
+<div class="stores">
+  <a class="cta" href="https://apps.apple.com/tr/app/id6800773533">App Store'dan indir</a>
+  <a class="cta" href="https://play.google.com/store/apps/details?id=com.arinkacmaz.hafiza">Google Play'den indir</a>
+</div>
 
-<h2>Ne yapar</h2>
+<h2>Elifba</h2>
 <ul>
   <li>28 Arapça harfi tanıtır; her harfin yalın ve kelime içindeki hâllerini gösterir.</li>
   <li>Harekeleri, cezmi, şeddeyi, uzatmayı ve tenvini sırayla öğretir.</li>
   <li>Her adımda ses vardır: harfi önce duyar, sonra kendin okursun.</li>
-  <li>Bildiğin bölümleri sınavla atlayabilirsin.</li>
+  <li>Bildiğin üniteleri kısa bir sınavla atlayabilirsin.</li>
+</ul>
+
+<h2>Kuran</h2>
+<p class="note">Kuran bölümü şimdilik iPhone'da; Android sürümüne yakında geliyor.</p>
+<ul>
+  <li>Namaz sûreleri ve 30 cüzün tamamı, mushaf sırasıyla.</li>
+  <li>Her konuda ayetleri dinler, tanır, sıralar ve kendi sesinle okursun; konunun sonunda ezberlersin.</li>
+  <li>Günlük tekrar: ezberlediğin konular 1, 3, 15 ve 30 gün sonra yeniden karşına çıkar.</li>
+  <li>Ezber dinleyicisi seçtiğin ayetleri tekrar tekrar okur, ekran kapalıyken de çalar.</li>
+</ul>
+
+<h2>Düzenli çalışmak için</h2>
+<ul>
+  <li>Günlük görevler, seri, haftalık sandık ve haftalık grafik.</li>
+  <li>Ana ekran widget'ı serini ve canını uygulamayı açmadan gösterir.</li>
+  <li>Hesap yok; ilerlemen yalnızca telefonunda saklanır.</li>
 </ul>
 
 <h2>İletişim</h2>
@@ -61,19 +82,23 @@
    <a href="mailto:destek@hafizaapp.com">destek@hafizaapp.com</a></p>
 
 <div class="en">
-  <strong>In English</strong> — Hafız-a teaches the Arabic alphabet from scratch:
-  all 28 letters with their contextual forms, then vowel marks and reading rules,
-  with audio at every step. Available on the App Store.
+  <strong>In English</strong> · Hafız-a takes you from the Arabic alphabet to the
+  Quran: all 28 letters with their contextual forms, vowel marks and reading
+  rules, then the prayer surahs and all 30 juz to listen to, read and memorise,
+  with a daily review and a memorisation player. Available on the App Store
+  and Google Play; the Quran section is on iPhone for now and is coming to
+  Android soon.
   Contact: <a href="mailto:destek@hafizaapp.com">destek@hafizaapp.com</a>
 </div>
 
 <div class="links">
   <a href="https://gizlilik.hafizaapp.com">Gizlilik Politikası</a> ·
   <a href="https://destek.hafizaapp.com">Destek</a> ·
-  <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Kullanım Koşulları</a>
+  <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Kullanım Koşulları (App Store)</a>
 </div>
 
-<footer>© 2026 Arin Kaçmaz</footer>
+<footer>© 2026 Arin Kaçmaz · Kuran tilaveti: Abdullah Basfar ·
+  <a href="https://versebyversequran.com">VerseByVerseQuran.com</a></footer>
 
 </body>
 </html>
